@@ -1,0 +1,4 @@
+{
+"mongoURI": "mongodb+srv://lly123:lly123@job-tracker-fp7c8.mongodb.net/test?retryWrites=true&w=majority",
+"jwtSecret": "MySecret"
+}
