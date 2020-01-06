@@ -1,0 +1,79 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+/* -----------landing page-------------- */
+
+.landing {
+  background-image: linear-gradient(rgba(21, 4, 117, 0.6),
+      rgba(21, 4, 117, 0.6)),
+    url("./images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
+
+.landing-title {
+
+  position: relative;
+  top: 15%;
+}
+
+.landing-title h3 {
+  margin: 0 0 2rem 0;
+}
+
+.landing-title .btn {
+  border: white solid 0.5px;
+  margin: 0 2rem;
+  background: transparent;
+  color: white;
+
+}
+
+.landing-title .btn:hover {
+  background-color: whitesmoke;
+  border: none;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+/* ---------------account------------------ */
+
+.account-heading {
+  padding: 2rem 0;
+  margin: 4rem 0;
+  letter-spacing: 0.05rem;
+}
+
+
+/* ---------------SIGNIN------------------- */
+
+.input-field input.validate {
+  border: lightgrey solid 0.5px;
+  padding: 0 1rem;
+  width: 90%;
+}
+
+.account {
+  border: lightgray solid 0.5px;
+  padding: 1.5rem;
+  margin: 0 auto;
+  border-radius: 2%;
+}
+
+/* ---------------signup---------------- */
+
+.collapsible {
+  border: none;
+}
+
+.collapsible-header {
+  display: block;
+}
